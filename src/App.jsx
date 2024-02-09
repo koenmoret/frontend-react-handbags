@@ -70,7 +70,8 @@ function App() {
                 {/*        illo, labore laboriosam nihil omnis praesentium. Aspernatur cum deleniti excepturi itaque,*/}
                 {/*        laboriosam nisi rerum sunt. At repellendus tenetur veniam!</p>*/}
                 {/*</section>*/}
-                <Tile title="The brand">
+                <Tile>
+                    <h2>The brand</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa dolorum enim excepturi,
                         fuga pariatur praesentium quia sequi similique sunt.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa dolorum enim excepturi,
@@ -78,7 +79,8 @@ function App() {
                 </Tile>
                 <Tile image={brand} imageDescription="Our Brand" />
                 <Tile image={our_story} imageDescription="Our Story" />
-                <Tile title="Our story">
+                <Tile>
+                    <h2>Our story</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eligendi exercitationem illo, labore laboriosam nihil omnis praesentium. Aspernatur cum deleniti excepturi itaque, laboriosam nisi rerum sunt. At repellendus tenetur veniam!</p>
                 </Tile>
             </footer>
